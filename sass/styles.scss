@@ -1,0 +1,30 @@
+@import "partials/settings";
+@import "foundation/components/grid";
+@import "foundation/components/top-bar";
+@import "foundation/components/type";
+@import "foundation/components/visibility";
+
+$start-color: blue;
+$change-color: orange;
+
+#butt{
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+  background-color: $start-color;
+
+  &:hover {
+    font-size: 25px;
+    transform: scale(1.5);
+    background-color: $change-color;
+  }
+}
+
+// #butt:hover{
+//   font-size: 25px;
+//   transform: scale(1.2);
+
+// }
